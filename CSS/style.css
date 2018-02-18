@@ -116,9 +116,15 @@ body {
   }
 /* Event page */
 
+  .events-card-deck {
+    margin-bottom: 25px;
+  }
+
   .events-card-deck .card {
     box-shadow: 1px 1px 2px;
     color: black;
+    position: relative;
+    padding: 0 0 10px 0;
   }
   .events-card-deck .card:hover {
     cursor: pointer;
@@ -144,3 +150,5 @@ body {
   .events-search-row button {
     transform: scale(-1, 1);
   }
+
+  
